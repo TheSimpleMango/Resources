@@ -97,6 +97,9 @@ public class Pilot extends IRobotAdapter {
         if(getInfraredByte()==248){
             driveDirect(500,500);
         }
+        else if(getInfraredByte()==244){
+            driveDirect(500,500);
+        }
         else if(getInfraredByte()==252){
             driveDirect(500,500);
 
