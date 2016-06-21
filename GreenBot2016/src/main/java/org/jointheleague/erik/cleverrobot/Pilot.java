@@ -57,16 +57,18 @@ public class Pilot extends IRobotAdapter {
         172 red + green
         173 red + green + force field
         0   idrk
-         Home Base: 240
-        Reserved 248
-        Red Buoy 244
-        Green Buoy 242
-        Force Field 252
-        Red Buoy and Green Buoy 250
-        Red Buoy and Force Field 246
-        Green Buoy and Force Field 254
-        Red Buoy, Green Buoy and Force Field 255
-        No value received
+
+
+         Home Base: 
+        240 Reserved 
+        248 Red Buoy
+         244 Green Buoy
+         242 Force Field
+         252 Red Buoy and Green Buoy 
+        250 Red Buoy and Force Field
+         246 Green Buoy and Force Field 
+        254 Red Buoy, Green Buoy and Force Field 
+        255 No value received
          */
     public void loop() throws ConnectionLostException {
         readSensors(SENSORS_GROUP_ID6);
@@ -92,7 +94,11 @@ public class Pilot extends IRobotAdapter {
             driveDirect(500, -500);
             SystemClock.sleep(376);
         }
-        if(getInfraredByte()==){
+        if(getInfraredByte()==248){
+            driveDirect(500,500);
+        }
+        else if(getInfraredByte()==252){
+            driveDirect(500,500);
 
         }
         /* if (getInfraredByte() == 244) {
