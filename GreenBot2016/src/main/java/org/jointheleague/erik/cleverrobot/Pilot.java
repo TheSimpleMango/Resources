@@ -110,7 +110,6 @@ public class Pilot extends IRobotAdapter {
     public void loop() throws ConnectionLostException {
         readSensors(SENSORS_GROUP_ID6);
         dashboard.log("" + getInfraredByte());
-
         if (Math.abs(getCurrent()) > 1000) {
             dashboard.log("Stuck");
             driveDirect(-500, -500);
