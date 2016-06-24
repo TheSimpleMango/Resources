@@ -41,11 +41,15 @@ public class Pilot extends IRobotAdapter {
         dashboard.log(dashboard.getString(R.string.hello));
     }
 
-    /** This method is executed when the robot first starts up. **/
+    /**
+     * This method is executed when the robot first starts up.
+     **/
     public void initialize() throws ConnectionLostException {
     }
 
-    /** This method is called repeatedly. **/
+    /**
+     * This method is called repeatedly.
+     **/
     //- + left & + - right
     /*
         160 reserved
@@ -70,53 +74,128 @@ public class Pilot extends IRobotAdapter {
         254 Red Buoy, Green Buoy and Force Field 
         255 No value received
          */
+
+    //x=1 Senses nothing
+    //x=2 Senses Green first then Red
+    //x=3 Senses Red first then Green
+    //x=4 Senses Green first Red second,then turns left until both buoys are sensed
+    //x=5 Senses Red first Green second,then turns right until both buoys are sensed
+
+
+
+    /*
+    consider current state and infrared signal gotten
+    read sensors
+    check states
+
+    sees nothing: curves
+
+    green first:
+    "sees green" goes forward
+    "sees red" turns left
+    "sees red-green" goes forward and stays inside the red-green zone
+
+    or
+
+    red first:
+    "sees red" goes forward
+    "sees green" turns right
+    "sees red-green" goes forward and stays inside the red-green zone
+
+    change state at the end of the loop
+    check bump inside of each state
+    */
+    int x = 1;
+
     public void loop() throws ConnectionLostException {
         readSensors(SENSORS_GROUP_ID6);
         dashboard.log("" + getInfraredByte());
-        driveDirect(500, 350);
-        if (isBumpLeft() && isBumpRight()) { 
-            SystemClock.sleep(1000);
-            if (getWallSignal() > 200) {
+
+        if (Math.abs(getCurrent()) > 1000) {
+            dashboard.log("Stuck");
+            driveDirect(-500, -500);
+            SystemClock.sleep(100);
+            driveDirect(-500, 500);
+            SystemClock.sleep(376);
+        }
+        if (isBumpLeft() && isBumpRight()&& x==1) { // What if x != 1?
+            if (getWallSignal() > 50) {
                 driveDirect(-500, 500);
             } else {
                 driveDirect(500, -500);
             }
         } else if (isBumpRight()) {
-            SystemClock.sleep(1000);
             driveDirect(-500, -500);
             SystemClock.sleep(100);
             driveDirect(-500, 500);
             SystemClock.sleep(376);
         } else if (isBumpLeft()) {
-           SystemClock.sleep(1000);
             driveDirect(-500, -500);
             SystemClock.sleep(100);
             driveDirect(500, -500);
             SystemClock.sleep(376);
         }
-        if(getInfraredByte()==248){
-            driveDirect(500,500);
+        // red buoy and green buoy / red buoy green buoy and force field / sees green first
+        if (getInfraredByte() == 252 || getInfraredByte() == 254 && x == 2) {
+            x = 4;
+            // read sensors
+            //while (not seeing just green) {//rotate left and read sensors}
+            //
         }
-        else if(getInfraredByte()==244){
-            driveDirect(500,500);
+        // red buoy and green buoy / red buoy green buoy and force field / sees red first
+        else if (getInfraredByte() == 252 || getInfraredByte() == 254 && x == 3) {
+            x = 5;
         }
-        else if(getInfraredByte()==252){
-            driveDirect(500,500);
+        // green buoy or green buoy and force field
+        else if (getInfraredByte() == 244 || getInfraredByte() == 246) {
+            x = 2;
+        }
+        // red buoy or red buoy and force field first
+        else if (getInfraredByte() == 248 || getInfraredByte() == 250) {
+            x = 3;
+        }
+            // what happens after everything finishes and it has to go back to roaming mode
 
-        }
-        /* if (getInfraredByte() == 244) {
+    /*
+         Home Base: 
+        240 Reserved 
+        248 Red Buoy
+         244 Green Buoy
+         242 Force Field
+         252 Red Buoy and Green Buoy 
+        250 Red Buoy and Force Field
+         246 Green Buoy and Force Field 
+        254 Red Buoy, Green Buoy and Force Field 
+        255 No value received
+                */
+        if (x == 1) {
             driveDirect(500, 350);
-            SystemClock.sleep(376);
-        } else if (getInfraredByte () == 246) {
+        } else if (x == 2) {
             driveDirect(500, 500);
-        } else if (getInfraredByte() == 248) {
-            driveDirect(350, 500);
-            SystemClock.sleep(376);
-        } else if (getInfraredByte() == 250) {
+            if (getInfraredByte() == 248) {
+                driveDirect(-500, 500);
+            }
+        } else if (x == 3) {
             driveDirect(500, 500);
-        } else if (getInfraredByte() == 254) {
-            driveDirect(500, 500);
-        }*/
+            if (getInfraredByte() == 248) {
+                driveDirect(500, -500);
+            }
+        } else if (x == 4) {
+            if (getInfraredByte() == 252) {
+                driveDirect(250, 500);
+                SystemClock.sleep(1000);
+                driveDirect(500, 250);
+            }
+        } else if (x == 5) {
+            if (getInfraredByte() == 252) {
+                driveDirect(250, 500);
+                SystemClock.sleep(1000);
+                driveDirect(500, 250);
+            }
+        }
+
+
+
     }
 
     /**

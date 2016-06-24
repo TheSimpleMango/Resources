@@ -1,8 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4b223862-b071-4322-9456-8b61ee074be3" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/classes/androidTest/debug/org/jointheleague/erik/cleverrobot/test/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/exploded-aar/GreenBot2016/iOIOLib/unspecified/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/exploded-aar/GreenBot2016/iOIOLib/unspecified/R.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/exploded-aar/GreenBot2016/iOIOLib/unspecified/aapt/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/exploded-aar/GreenBot2016/iOIOLib/unspecified/jars/classes.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/exploded-aar/GreenBot2016/iOIOLib/unspecified/res/drawable-hdpi-v4/ic_action_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/exploded-aar/GreenBot2016/iOIOLib/unspecified/res/drawable-hdpi-v4/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/exploded-aar/GreenBot2016/iOIOLib/unspecified/res/drawable-mdpi-v4/ic_action_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/exploded-aar/GreenBot2016/iOIOLib/unspecified/res/drawable-mdpi-v4/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/exploded-aar/GreenBot2016/iOIOLib/unspecified/res/drawable-xhdpi-v4/ic_action_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/exploded-aar/GreenBot2016/iOIOLib/unspecified/res/drawable-xhdpi-v4/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/exploded-aar/GreenBot2016/iOIOLib/unspecified/res/values/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/exploded-aar/GreenBot2016/iOIOiRobot2/unspecified/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/exploded-aar/GreenBot2016/iOIOiRobot2/unspecified/R.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/exploded-aar/GreenBot2016/iOIOiRobot2/unspecified/aapt/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/exploded-aar/GreenBot2016/iOIOiRobot2/unspecified/jars/classes.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/exploded-aar/GreenBot2016/iOIOiRobot2/unspecified/res/layout/main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/exploded-aar/GreenBot2016/iOIOiRobot2/unspecified/res/values/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/pre-dexed/debug/GreenBot2016-iOIOLib-unspecified_3ef4f796278ea0f41f3a46893491b8f2d6ba0d86.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/pre-dexed/debug/GreenBot2016-iOIOiRobot2-unspecified_7f8428c414f08e7903fab57b4152c4047fb7661b.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/pre-dexed/debug/com.android.support-support-v4-22.1.1_0d9f11f0fa3832eb2bb62f71c7001358cbe2ee4e.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/pre-dexed/debug/debug_b212785d37f42b966a46d592de8810da5f220690.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/pre-dexed/debug/internal_impl-22.1.1_c00d5cbe043c5d4a8bb9e5c11511cee91cc94f84.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/pre-dexed/debug/support-annotations-22.1.1_df103917a223e607a3eed27c98cf0bf30a239ab3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOLib/build/intermediates/classes/androidTest/debug/ioio/lib/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOLib/build/intermediates/classes/androidTest/debug/ioio/lib/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOLib/build/intermediates/classes/androidTest/debug/ioio/lib/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOLib/build/intermediates/classes/androidTest/debug/ioio/lib/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOLib/build/intermediates/classes/androidTest/debug/ioio/lib/test/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOLib/build/intermediates/classes/androidTest/debug/ioio/lib/test/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOLib/build/intermediates/classes/androidTest/debug/ioio/lib/test/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOLib/build/intermediates/classes/androidTest/debug/ioio/lib/test/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOLib/build/intermediates/classes/androidTest/debug/ioio/lib/test/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOLib/build/intermediates/classes/androidTest/debug/ioio/lib/test/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/classes/androidTest/debug/ioio/lib/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/classes/androidTest/debug/ioio/lib/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/classes/androidTest/debug/ioio/lib/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/classes/androidTest/debug/ioio/lib/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/classes/androidTest/debug/org/jointheleague/erik/irobot/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/classes/androidTest/debug/org/jointheleague/erik/irobot/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/classes/androidTest/debug/org/jointheleague/erik/irobot/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/classes/androidTest/debug/org/jointheleague/erik/irobot/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/classes/androidTest/debug/org/jointheleague/erik/irobot/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/classes/androidTest/debug/org/jointheleague/erik/irobot/test/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/classes/androidTest/debug/org/jointheleague/erik/irobot/test/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/classes/androidTest/debug/org/jointheleague/erik/irobot/test/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/classes/androidTest/debug/org/jointheleague/erik/irobot/test/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/classes/androidTest/debug/org/jointheleague/erik/irobot/test/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/classes/androidTest/debug/org/jointheleague/erik/irobot/test/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/classes/androidTest/debug/org/jointheleague/erik/irobot/test/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/exploded-aar/GreenBot2016/iOIOLib/unspecified/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/exploded-aar/GreenBot2016/iOIOLib/unspecified/R.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/exploded-aar/GreenBot2016/iOIOLib/unspecified/aapt/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/exploded-aar/GreenBot2016/iOIOLib/unspecified/jars/classes.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/exploded-aar/GreenBot2016/iOIOLib/unspecified/res/drawable-hdpi-v4/ic_action_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/exploded-aar/GreenBot2016/iOIOLib/unspecified/res/drawable-hdpi-v4/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/exploded-aar/GreenBot2016/iOIOLib/unspecified/res/drawable-mdpi-v4/ic_action_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/exploded-aar/GreenBot2016/iOIOLib/unspecified/res/drawable-mdpi-v4/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/exploded-aar/GreenBot2016/iOIOLib/unspecified/res/drawable-xhdpi-v4/ic_action_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/exploded-aar/GreenBot2016/iOIOLib/unspecified/res/drawable-xhdpi-v4/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/exploded-aar/GreenBot2016/iOIOLib/unspecified/res/values/values.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/classes/debug/org/jointheleague/erik/cleverrobot/Dashboard$1.class" afterPath="$PROJECT_DIR$/GreenBot2016/build/intermediates/classes/debug/org/jointheleague/erik/cleverrobot/Dashboard$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/classes/debug/org/jointheleague/erik/cleverrobot/Dashboard$2.class" afterPath="$PROJECT_DIR$/GreenBot2016/build/intermediates/classes/debug/org/jointheleague/erik/cleverrobot/Dashboard$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/classes/debug/org/jointheleague/erik/cleverrobot/Dashboard.class" afterPath="$PROJECT_DIR$/GreenBot2016/build/intermediates/classes/debug/org/jointheleague/erik/cleverrobot/Dashboard.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/classes/debug/org/jointheleague/erik/cleverrobot/Pilot.class" afterPath="$PROJECT_DIR$/GreenBot2016/build/intermediates/classes/debug/org/jointheleague/erik/cleverrobot/Pilot.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/classes/debug/org/jointheleague/erik/cleverrobot/sensors/UltraSonicSensors.class" afterPath="$PROJECT_DIR$/GreenBot2016/build/intermediates/classes/debug/org/jointheleague/erik/cleverrobot/sensors/UltraSonicSensors.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/exploded-aar/Resources/iOIOLib/unspecified/jars/classes.jar" afterPath="$PROJECT_DIR$/GreenBot2016/build/intermediates/exploded-aar/Resources/iOIOLib/unspecified/jars/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/exploded-aar/Resources/iOIOiRobot2/unspecified/jars/classes.jar" afterPath="$PROJECT_DIR$/GreenBot2016/build/intermediates/exploded-aar/Resources/iOIOiRobot2/unspecified/jars/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/GreenBot2016/build/intermediates/res/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/GreenBot2016/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/GreenBot2016/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GreenBot2016/build/outputs/apk/GreenBot2016-debug-unaligned.apk" afterPath="$PROJECT_DIR$/GreenBot2016/build/outputs/apk/GreenBot2016-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GreenBot2016/build/outputs/apk/GreenBot2016-debug.apk" afterPath="$PROJECT_DIR$/GreenBot2016/build/outputs/apk/GreenBot2016-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOIOLib/build/intermediates/bundles/debug/classes.jar" afterPath="$PROJECT_DIR$/iOIOLib/build/intermediates/bundles/debug/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOIOLib/build/intermediates/bundles/release/classes.jar" afterPath="$PROJECT_DIR$/iOIOLib/build/intermediates/bundles/release/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOIOLib/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/iOIOLib/build/intermediates/res/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOIOLib/build/outputs/aar/iOIOLib-debug.aar" afterPath="$PROJECT_DIR$/iOIOLib/build/outputs/aar/iOIOLib-debug.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOIOLib/build/outputs/aar/iOIOLib-release.aar" afterPath="$PROJECT_DIR$/iOIOLib/build/outputs/aar/iOIOLib-release.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/bundles/debug/classes.jar" afterPath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/bundles/debug/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/bundles/release/classes.jar" afterPath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/bundles/release/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/exploded-aar/Resources/iOIOLib/unspecified/jars/classes.jar" afterPath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/exploded-aar/Resources/iOIOLib/unspecified/jars/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/res/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/outputs/aar/iOIOiRobot2-debug.aar" afterPath="$PROJECT_DIR$/iOIOiRobot2/build/outputs/aar/iOIOiRobot2-debug.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/outputs/aar/iOIOiRobot2-release.aar" afterPath="$PROJECT_DIR$/iOIOiRobot2/build/outputs/aar/iOIOiRobot2-release.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GreenBot2016/GreenBot2016.iml" afterPath="$PROJECT_DIR$/GreenBot2016/GreenBot2016.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/GreenBot2016/build/intermediates/blame/res/debug/multi/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/GreenBot2016/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/blame/res/debug/single/drawable-ldpi-v4.json" afterPath="$PROJECT_DIR$/GreenBot2016/build/intermediates/blame/res/debug/single/drawable-ldpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/GreenBot2016/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/GreenBot2016/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/GreenBot2016/build/intermediates/blame/res/debug/single/drawable.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/GreenBot2016/build/intermediates/blame/res/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GreenBot2016/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/GreenBot2016/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GreenBot2016/src/main/java/org/jointheleague/erik/cleverrobot/Pilot.java" afterPath="$PROJECT_DIR$/GreenBot2016/src/main/java/org/jointheleague/erik/cleverrobot/Pilot.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOIOLib/build/intermediates/blame/res/androidTest/debug/multi/values.json" afterPath="$PROJECT_DIR$/iOIOLib/build/intermediates/blame/res/androidTest/debug/multi/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOIOLib/build/intermediates/blame/res/androidTest/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/iOIOLib/build/intermediates/blame/res/androidTest/debug/single/drawable-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOIOLib/build/intermediates/blame/res/androidTest/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/iOIOLib/build/intermediates/blame/res/androidTest/debug/single/drawable-mdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOIOLib/build/intermediates/blame/res/androidTest/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/iOIOLib/build/intermediates/blame/res/androidTest/debug/single/drawable-xhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/blame/res/androidTest/debug/multi/values.json" afterPath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/blame/res/androidTest/debug/multi/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/blame/res/androidTest/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/blame/res/androidTest/debug/single/drawable-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/blame/res/androidTest/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/blame/res/androidTest/debug/single/drawable-mdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/blame/res/androidTest/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/blame/res/androidTest/debug/single/drawable-xhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/blame/res/androidTest/debug/single/layout.json" afterPath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/blame/res/androidTest/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/blame/res/debug/multi/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/blame/res/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/blame/res/release/multi/values.json" afterPath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/blame/res/release/multi/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/blame/res/release/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/blame/res/release/single/drawable-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/blame/res/release/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/blame/res/release/single/drawable-mdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/blame/res/release/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/blame/res/release/single/drawable-xhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/blame/res/release/single/layout.json" afterPath="$PROJECT_DIR$/iOIOiRobot2/build/intermediates/blame/res/release/single/layout.json" />
     </list>
     <ignored path="Resources.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,8 +148,8 @@
       <file leaf-file-name="Pilot.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GreenBot2016/src/main/java/org/jointheleague/erik/cleverrobot/Pilot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9362671">
-              <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.82678986">
+              <caret line="105" column="14" selection-start-line="105" selection-start-column="14" selection-end-line="105" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -2972,6 +3094,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="111" />
     <option name="y" value="23" />
     <option name="width" value="1260" />
     <option name="height" value="803" />
@@ -3051,6 +3174,7 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="device.picker.selection" value="HT0C7HM04570" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Test stuff" />
   </component>
   <component name="RunManager" selected="Android Application.GreenBot2016">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -3265,7 +3389,7 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="GreenBot2016" type="AndroidRunConfigurationType" factoryName="Android Application">
+    <configuration default="false" name="GreenBot2016" type="AndroidRunConfigurationType" factoryName="Android Application" activateToolWindowBeforeRun="false">
       <module name="GreenBot2016" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
@@ -3316,6 +3440,9 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4b223862-b071-4322-9456-8b61ee074be3" name="Default" comment="" />
@@ -3326,7 +3453,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1260" height="803" extended-state="0" />
+    <frame x="111" y="23" width="1260" height="803" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -3335,7 +3462,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32896653" sideWeight="0.49671593" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896653" sideWeight="0.5049261" order="-1" side_tool="true" content_ui="tabs" />
@@ -3344,7 +3471,7 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896653" sideWeight="0.49507388" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896653" sideWeight="0.49671593" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32896653" sideWeight="0.5032841" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -3357,6 +3484,14 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -3376,8 +3511,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GreenBot2016/src/main/java/org/jointheleague/erik/cleverrobot/Pilot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9362671">
-          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.82678986">
+          <caret line="105" column="14" selection-start-line="105" selection-start-column="14" selection-end-line="105" selection-end-column="14" />
           <folding />
         </state>
       </provider>
