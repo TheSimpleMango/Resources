@@ -41,49 +41,12 @@ public class Pilot extends IRobotAdapter {
         dashboard.log(dashboard.getString(R.string.hello));
     }
 
-    /**
-     * This method is executed when the robot first starts up.
-     **/
-    public void initialize() throws ConnectionLostException {
-    }
 
-    /**
-     * This method is called repeatedly.
-     **/
-    //- + left & + - right
-    /*
-        160 reserved
-        161 force field
-        164 green
-        165 green + force field
-        168 red
-        169 red + force field
-        172 red + green
-        173 red + green + force field
-        0   idrk
-
-
-         Home Base: 
-        240 Reserved 
-        248 Red Buoy
-         244 Green Buoy
-         242 Force Field
-         252 Red Buoy and Green Buoy 
-        250 Red Buoy and Force Field
-         246 Green Buoy and Force Field 
-        254 Red Buoy, Green Buoy and Force Field 
-        255 No value received
-         */
-
-    //x=1 Senses nothing
-    //x=2 Senses Green first then Red
-    //x=3 Senses Red first then Green
-    //x=4 Senses Green first Red second,then turns left until both buoys are sensed
-    //x=5 Senses Red first Green second,then turns right until both buoys are sensed
-
-
-
-    /*
+    int x = 0;
+    public void initialize() throws ConnectionLostException
+    {
+        readSensors(SENSORS_GROUP_ID6);
+    }/*
     consider current state and infrared signal gotten
     read sensors
     check states
@@ -105,96 +68,102 @@ public class Pilot extends IRobotAdapter {
     change state at the end of the loop
     check bump inside of each state
     */
-    int x = 1;
-
+    boolean y;
     public void loop() throws ConnectionLostException {
         readSensors(SENSORS_GROUP_ID6);
         dashboard.log("" + getInfraredByte());
-        if (Math.abs(getCurrent()) > 1000) {
-            dashboard.log("Stuck");
-            driveDirect(-500, -500);
-            SystemClock.sleep(100);
-            driveDirect(-500, 500);
-            SystemClock.sleep(376);
-        }
-        if (isBumpLeft() && isBumpRight()&& x==1) { // What if x != 1?
-            if (getWallSignal() > 50) {
-                driveDirect(-500, 500);
-            } else {
-                driveDirect(500, -500);
+        // nothing so far
+        if (x == 0){
+            if (y){
+                driveDirect(400, 300);
+            } else if (!y){
+                driveDirect(300, 400);
             }
-        } else if (isBumpRight()) {
-            driveDirect(-500, -500);
-            SystemClock.sleep(100);
-            driveDirect(-500, 500);
-            SystemClock.sleep(376);
-        } else if (isBumpLeft()) {
-            driveDirect(-500, -500);
-            SystemClock.sleep(100);
-            driveDirect(500, -500);
-            SystemClock.sleep(376);
+            if (isBumpLeft() && isBumpRight()) {
+                if (getWallSignal() > 50) {
+                    driveDirect(-500, 500);
+                } else {
+                    driveDirect(500, -500);
+                }
+            } else if (isBumpRight()) {
+                driveDirect(-500, -500);
+                SystemClock.sleep(100);
+                driveDirect(-500, 500);
+                SystemClock.sleep(376);
+                y = !y;
+            } else if (isBumpLeft()) {
+                driveDirect(-500, -500);
+                SystemClock.sleep(100);
+                driveDirect(500, -500);
+                SystemClock.sleep(376);
+                y = !y;
+            }
         }
-        // red buoy and green buoy / red buoy green buoy and force field / sees green first
-        if (getInfraredByte() == 252 || getInfraredByte() == 254 && x == 2) {
-            x = 4;
-            // read sensors
-            //while (not seeing just green) {//rotate left and read sensors}
-            //
-        }
-        // red buoy and green buoy / red buoy green buoy and force field / sees red first
-        else if (getInfraredByte() == 252 || getInfraredByte() == 254 && x == 3) {
-            x = 5;
-        }
-        // green buoy or green buoy and force field
-        else if (getInfraredByte() == 244 || getInfraredByte() == 246) {
-            x = 2;
-        }
-        // red buoy or red buoy and force field first
-        else if (getInfraredByte() == 248 || getInfraredByte() == 250) {
+        // green first
+        if (getInfraredByte() == 244 || getInfraredByte() == 246 && x == 0){
+            dashboard.log("green first: " + getInfraredByte());
+            x = 1;
+            dashboard.log("x changed to " + x);
+            while (getInfraredByte() != 248 && getInfraredByte() != 250) {
+                readSensors(SENSORS_GROUP_ID6);
+                dashboard.log("goes forward until red: " + getInfraredByte());
+                driveDirect(50, 50);
+                if (Math.abs(getCurrent()) > 1200 || isBumpLeft() || isBumpRight()) {
+                    SystemClock.sleep(500);
+                }
+            }
+            while (getInfraredByte() != 252 && getInfraredByte() != 254){
+                readSensors(SENSORS_GROUP_ID6);
+                dashboard.log("turns until middle: " + getInfraredByte());
+                driveDirect(-50, 50);
+                if (Math.abs(getCurrent()) > 1200 || isBumpLeft() || isBumpRight()) {
+                    SystemClock.sleep(500);
+                }
+            }
             x = 3;
+            dashboard.log("x changed to " + x);
         }
-            // what happens after everything finishes and it has to go back to roaming mode
-
-    /*
-         Home Base: 
-        240 Reserved 
-        248 Red Buoy
-         244 Green Buoy
-         242 Force Field
-         252 Red Buoy and Green Buoy 
-        250 Red Buoy and Force Field
-         246 Green Buoy and Force Field 
-        254 Red Buoy, Green Buoy and Force Field 
-        255 No value received
-                */
-        if (x == 1) {
-            driveDirect(500, 350);
-        } else if (x == 2) {
-            driveDirect(500, 500);
-            if (getInfraredByte() == 248) {
-                driveDirect(-500, 500);
+        // red first
+        if (getInfraredByte() == 248 || getInfraredByte() == 250 && x == 0){
+            dashboard.log("red first");
+            x = 2;
+            dashboard.log("x changed to " + x);
+            while (getInfraredByte() != 244 && getInfraredByte() != 246){
+                readSensors(SENSORS_GROUP_ID6);
+                dashboard.log("goes forward until green: " + getInfraredByte());
+                driveDirect(50, 50);
+                if (Math.abs(getCurrent()) > 1200 || isBumpLeft() || isBumpRight()) {
+                    SystemClock.sleep(500);
+                }
             }
-        } else if (x == 3) {
-            driveDirect(500, 500);
-            if (getInfraredByte() == 248) {
-                driveDirect(500, -500);
+            while (getInfraredByte() != 252 && getInfraredByte() != 254){
+                readSensors(SENSORS_GROUP_ID6);
+                dashboard.log("turns until middle: " + getInfraredByte());
+                driveDirect(50, -50);
+                if (Math.abs(getCurrent()) > 1200 || isBumpLeft() || isBumpRight()) {
+                    SystemClock.sleep(500);
+                }
             }
-        } else if (x == 4) {
-            if (getInfraredByte() == 252) {
-                driveDirect(250, 500);
-                SystemClock.sleep(1000);
-                driveDirect(500, 250);
+            x = 3;
+            dashboard.log("x changed to " + x);
+        }
+        if (x == 3){
+            dashboard.log("starts 3");
+            driveDirect(100,100);
+            while (getInfraredByte() == 244 || getInfraredByte() == 246){
+                dashboard.log("curving right");
+                readSensors(SENSORS_GROUP_ID6);
+                driveDirect(100,50);
             }
-        } else if (x == 5) {
-            if (getInfraredByte() == 252) {
-                driveDirect(250, 500);
-                SystemClock.sleep(1000);
-                driveDirect(500, 250);
+            while (getInfraredByte() == 248 || getInfraredByte() == 250){
+                dashboard.log("curving left");
+                readSensors(SENSORS_GROUP_ID6);
+                driveDirect(50,100);
+            }
+            if (Math.abs(getCurrent()) > 1200 || isBumpLeft() || isBumpRight()) {
+                SystemClock.sleep(500);
             }
         }
-
-
-
     }
 
     /**
