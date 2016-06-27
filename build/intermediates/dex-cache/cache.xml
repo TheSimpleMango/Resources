@@ -1,2 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/englab/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/englab/Desktop/IARoC/Resources/GreenBot2016/build/intermediates/pre-dexed/debug/support-annotations-22.1.1_b193afa8b9394591e9c3c5d8ef9bf704933623dd.jar" />
+    </item>
+    <item
+        jar="/Users/englab/Desktop/IARoC/Resources/GreenBot2016/build/intermediates/exploded-aar/Resources/iOIOLib/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecbeecfaee0ae896ed0217fd1540c809a3ffc4aa">
+        <dex dex="/Users/englab/Desktop/IARoC/Resources/GreenBot2016/build/intermediates/pre-dexed/debug/Resources-iOIOLib-unspecified_55b31e72f16e47594a7032f7e619c177472840d4.jar" />
+    </item>
+    <item
+        jar="/Users/englab/Desktop/IARoC/Resources/GreenBot2016/build/intermediates/exploded-aar/Resources/iOIOiRobot2/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="83fe70267f7fc855a6190a2b3f02dfcddaf09476">
+        <dex dex="/Users/englab/Desktop/IARoC/Resources/GreenBot2016/build/intermediates/pre-dexed/debug/Resources-iOIOiRobot2-unspecified_7abf3590d897cfc3b42f6d5431e30990601b5388.jar" />
+    </item>
+    <item
+        jar="/Users/englab/Desktop/IARoC/Resources/GreenBot2016/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/englab/Desktop/IARoC/Resources/GreenBot2016/build/intermediates/pre-dexed/debug/com.android.support-support-v4-22.1.1_eec981b6546a8db1c25111d40c7701164febfca2.jar" />
+    </item>
+    <item
+        jar="/Users/englab/Desktop/IARoC/Resources/GreenBot2016/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/englab/Desktop/IARoC/Resources/GreenBot2016/build/intermediates/pre-dexed/debug/internal_impl-22.1.1_9b18a6d78b6d398b71fa54c05892befdedbe41d5.jar" />
+    </item>
+
+</items>

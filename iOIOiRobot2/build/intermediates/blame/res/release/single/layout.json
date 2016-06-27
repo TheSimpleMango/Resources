@@ -2,5 +2,9 @@
     {
         "merged": "/Users/MingDa/Desktop/Programming/IARoC/Resources/iOIOiRobot2/build/intermediates/res/merged/release/layout/main.xml",
         "source": "/Users/MingDa/Desktop/Programming/IARoC/Resources/iOIOiRobot2/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/Users/englab/Desktop/IARoC/Resources/iOIOiRobot2/build/intermediates/res/merged/release/layout/main.xml",
+        "source": "/Users/englab/Desktop/IARoC/Resources/iOIOiRobot2/src/main/res/layout/main.xml"
     }
 ]

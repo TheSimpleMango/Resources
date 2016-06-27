@@ -43,9 +43,7 @@ public class Pilot extends IRobotAdapter {
 
 
     int x = 0;
-    public void initialize() throws ConnectionLostException
-    {
-        readSensors(SENSORS_GROUP_ID6);
+    public void initialize() throws ConnectionLostException {
     }/*
     consider current state and infrared signal gotten
     read sensors
@@ -68,7 +66,7 @@ public class Pilot extends IRobotAdapter {
     change state at the end of the loop
     check bump inside of each state
     */
-    boolean y;
+    boolean y = true;
     public void loop() throws ConnectionLostException {
         readSensors(SENSORS_GROUP_ID6);
         dashboard.log("" + getInfraredByte());
@@ -80,10 +78,12 @@ public class Pilot extends IRobotAdapter {
                 driveDirect(300, 400);
             }
             if (isBumpLeft() && isBumpRight()) {
-                if (getWallSignal() > 50) {
+                if (getWallSignal() > 40) {
                     driveDirect(-500, 500);
+                    SystemClock.sleep(100);
                 } else {
                     driveDirect(500, -500);
+                    SystemClock.sleep(100);
                 }
             } else if (isBumpRight()) {
                 driveDirect(-500, -500);

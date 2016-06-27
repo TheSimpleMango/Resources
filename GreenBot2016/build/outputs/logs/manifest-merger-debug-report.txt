@@ -1,64 +1,64 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:2:1-21:12
+ADDED from /Users/englab/Desktop/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:2:1-21:12
 	xmlns:tools
-		ADDED from /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /Users/englab/Desktop/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:3:5-51
 	xmlns:android
-		ADDED from /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/englab/Desktop/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:2:11-69
 	package
-		ADDED from /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:5:33-77
-		INJECTED from /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml
-		INJECTED from /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml
+		ADDED from /Users/englab/Desktop/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:5:33-77
+		INJECTED from /Users/englab/Desktop/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml
+		INJECTED from /Users/englab/Desktop/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:5:7-32
-		INJECTED from /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml
-		INJECTED from /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml
+		ADDED from /Users/englab/Desktop/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:5:7-32
+		INJECTED from /Users/englab/Desktop/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml
+		INJECTED from /Users/englab/Desktop/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml
 	android:versionCode
-		ADDED from /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:4:5-28
-		INJECTED from /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml
-		INJECTED from /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml
+		ADDED from /Users/englab/Desktop/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/englab/Desktop/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml
+		INJECTED from /Users/englab/Desktop/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml
 uses-sdk
-ADDED from /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:9:5-42
-MERGED from [com.android.support:support-v4:22.1.1] /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/AndroidManifest.xml:20:5-43
+ADDED from /Users/englab/Desktop/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:9:5-42
+MERGED from [com.android.support:support-v4:22.1.1] /Users/englab/Desktop/IARoC/Resources/GreenBot2016/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
-		INJECTED from /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml
-		INJECTED from /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml
+		INJECTED from /Users/englab/Desktop/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml
+		INJECTED from /Users/englab/Desktop/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:9:15-40
-		INJECTED from /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml
-		INJECTED from /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml
+		ADDED from /Users/englab/Desktop/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:9:15-40
+		INJECTED from /Users/englab/Desktop/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml
+		INJECTED from /Users/englab/Desktop/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:10:5-83
-MERGED from [Resources:iOIOiRobot2:unspecified] /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/build/intermediates/exploded-aar/Resources/iOIOiRobot2/unspecified/AndroidManifest.xml:7:5-67
-MERGED from [Resources:iOIOLib:unspecified] /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/build/intermediates/exploded-aar/Resources/iOIOLib/unspecified/AndroidManifest.xml:7:5-67
+ADDED from /Users/englab/Desktop/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:10:5-83
+MERGED from [Resources:iOIOiRobot2:unspecified] /Users/englab/Desktop/IARoC/Resources/GreenBot2016/build/intermediates/exploded-aar/Resources/iOIOiRobot2/unspecified/AndroidManifest.xml:7:5-67
+MERGED from [Resources:iOIOLib:unspecified] /Users/englab/Desktop/IARoC/Resources/GreenBot2016/build/intermediates/exploded-aar/Resources/iOIOLib/unspecified/AndroidManifest.xml:7:5-67
 	android:name
-		ADDED from /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:10:22-64
+		ADDED from /Users/englab/Desktop/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:10:22-64
 application
-ADDED from /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:12:5-20:19
-MERGED from [com.android.support:support-v4:22.1.1] /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/AndroidManifest.xml:22:5-20
+ADDED from /Users/englab/Desktop/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:12:5-20:19
+MERGED from [com.android.support:support-v4:22.1.1] /Users/englab/Desktop/IARoC/Resources/GreenBot2016/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:12:62-94
+		ADDED from /Users/englab/Desktop/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:12:62-94
 	android:icon
-		ADDED from /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:12:18-61
+		ADDED from /Users/englab/Desktop/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:12:18-61
 activity#org.jointheleague.erik.cleverrobot.Dashboard
-ADDED from /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:13:9-18:20
+ADDED from /Users/englab/Desktop/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:13:9-18:20
 	android:label
-		ADDED from /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:13:19-51
+		ADDED from /Users/englab/Desktop/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:13:19-51
 	android:name
-		ADDED from /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:13:52-111
+		ADDED from /Users/englab/Desktop/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:13:52-111
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:14:13-17:29
+ADDED from /Users/englab/Desktop/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:14:13-17:29
 action#android.intent.action.MAIN
-ADDED from /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:15:17-69
+ADDED from /Users/englab/Desktop/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:15:25-66
+		ADDED from /Users/englab/Desktop/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:16:17-77
+ADDED from /Users/englab/Desktop/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:16:27-74
+		ADDED from /Users/englab/Desktop/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:16:27-74
 android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:2:1-21:12 reason: org.jointheleague.erik.irobot has a targetSdkVersion < 4
+IMPLIED from /Users/englab/Desktop/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:2:1-21:12 reason: org.jointheleague.erik.irobot has a targetSdkVersion < 4
 android:uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:2:1-21:12 reason: org.jointheleague.erik.irobot has a targetSdkVersion < 4
+IMPLIED from /Users/englab/Desktop/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:2:1-21:12 reason: org.jointheleague.erik.irobot has a targetSdkVersion < 4
 android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /Users/MingDa/Desktop/Programming/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:2:1-21:12 reason: org.jointheleague.erik.irobot requested WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/englab/Desktop/IARoC/Resources/GreenBot2016/src/main/AndroidManifest.xml:2:1-21:12 reason: org.jointheleague.erik.irobot requested WRITE_EXTERNAL_STORAGE
